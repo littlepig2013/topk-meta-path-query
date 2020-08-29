@@ -56,21 +56,21 @@ This is the project for top k meta path query. There are 4 executable files in t
 
 * ./genTopKMPs Usage: run this to generate top-k meta paths and store them in "Classifier/topKMPs/" for training pairs if you generate a new training set. These top-k results will be used later in MNIS-based-metapath2vec
 
-    ./genTopKMPs [dataset] [num_threads]
+    ./genTopKMPs dataset [num_threads=1]
     
 * ./genRandomWalks Usage: run this to generate random walks based the specified #walks and walk length. If fix_mp_switcher is set to 1, it will load [dataset]/fix_mps.txt and use these fixed meta paths to generate random walks. (The name format of the generated file is "FIX_MP_[dataset]-(edge_type)-..-(edge_type).txt".) Otherwise, it perform MNIS-based random walks and will use the top-k results from "genTopKMPs". Results are stored in "Classifier/RandomWalks/". The pre-generated random walks are compressed in RandomWalks.zip and you can uncompress it can directly use it in the metapath2vec embedding.
 
-    ./genRandomWalk [dataset] [num_walks] [walk_length] [fix_mp_switcher]
+    ./genRandomWalk dataset [num_walks=100] [walk_length=100] [fix_mp_switcher=0]
 
 The data structure ( yagoReader.cpp, yagoReader.h, HIN_Graph.h and HIN_Graph.cpp ) to store HIN in this project follows [Meta Structure][1]. 
 
 ## Experiments
 
-* To run the first label-basd connectivity experiment in our paper, refer to topKQueryTest program. The pre-generated results used in our paper are stored in exp/ folder and the case studey is put in Bound-Exp/ folder. 
+* To run the label-basd connectivity experiment in our paper, refer to topKQueryTest program. The pre-generated results used in our paper are stored in exp/ folder and the case studey is put in Bound-Exp/ folder. 
 
-* To run the embedding-based experiment based pre-generated embedding results, go to "Classifier" folder and run 
+* To run the embedding-based experiment based on pre-generated embeddings, go to "Classifier" folder and run 
     <pre><code>
-    python clf-evaluation.py [dataset] [embedding-method] [clf-method] 
+    python clf-evaluation.py dataset embedding-method clf-method
     </code></pre>
 
     Be sure that [dataset]-[embedding-method].txt exists in Embedding folder when you run this. Examples:
@@ -79,13 +79,13 @@ The data structure ( yagoReader.cpp, yagoReader.h, HIN_Graph.h and HIN_Graph.cpp
     python clf-evaluation.py ACM FIX-PVP GaussianNB
     </code></pre>
    
-    Here we employ [scikit-learn][3] to implement these classification methods and thus the corresponding package should be installed (python >=3.6). Embedding results are pre-generated using [metapath2vec][4] where the codes come from [here][5]. We use parameters as follows whenever we run the embedding program <code>-pp 1 -size 128 -window 7 -negative 5</code>.
+    Here we employ [scikit-learn][3] to implement these classification methods and thus the corresponding package should be installed (python >=3.6). Embedding results are pre-populated using [metapath2vec][4] where the codes come from [here][5]. We use parameters as follows when we run the embedding program <code>-pp 1 -size 128 -window 7 -negative 5</code>.
 
-    Since embedding results are already generated, you can directly go into Classifier directory and run clf-evaluation.py. If you want to start the metapath2vec-based classification experiment from scratch (which may require much longer time and work), you can do as follows:
+    Since embedding results are already generated, you can directly go into Classifier directory and run clf-evaluation.py. If you want to start the metapath2vec-based classification experiment from scratch (which may require much longer time), you can do as follows:
 
     1. Go to the corresponding data folder and run "python random_pairs.py". You can also set the split ratio in random_pairs.py
-    2. Go back to the previous directoray and run "make && genTopKMPs [dataset] [#threads]". This phase would cost much time and you can reduce it by employing more threads. To skip this step, you can download topKMPs.zip (sh download_topKMPs.sh) and uncompress it into topKMPs/ foloder.
-    3. Run "./genTopRandomWalk [dataset] [num_walks] [walk_length] [fix_mp_switcher]". If you want to skip this step, you can download the RandomWalks.zip (sh download_RWs.sh) and uncompress it into "Classifier/RandomWalks/". If you want to generate random walks by yourself, please note that currently there are memory leakage bugs in our program. The whole generation process possibly takes up 128GB or even more for ACM dataset during the random walk generation. If you want to avoid it, you can download the zip files into "Classifier/one_hop_neighbors/" and unzip them as "[dataset].txt". Download scipts are put under "Classifier/one_hop_neighbors/". 
+    2. Go back to the previous directory and run "make && genTopKMPs dataset [#threads=1]". This phase would cost much time and you can reduce it using more threads. To skip this step, you can download topKMPs.zip (sh download_topKMPs.sh) and uncompress it into topKMPs/ foloder. Note that these results are only useful if you do not update the training and testing dataset (running random_pairs.py would update them).
+    3. Run "./genTopRandomWalk dataset [num_walks=100] [walk_length=100] [fix_mp_switcher=0]". If you want to skip this step, you can download the RandomWalks.zip (sh download_RWs.sh) and uncompress it into "Classifier/RandomWalks/". Note that these random walks are also based on unchanged training set. To generate random walks by yourself, please note that currently there are memory leakage bugs in our program. The whole generation process possibly takes up 128GB or even more for ACM dataset during the random walk generation. If you want to avoid it, you can download the zip files into "Classifier/one_hop_neighbors/" and unzip them as "[dataset].txt". Downloading scipts are put under "Classifier/one_hop_neighbors/". 
     4. Download the [metapath2vec code][5] and run it with parameters you want. Make sure you specify the output path is under "Classifier/Embedding/" folder and the input path is under "Classifier/RandomWalks" folder.
     5. Finally you can run clf-evaluation.py to examine the classification performance.
 
