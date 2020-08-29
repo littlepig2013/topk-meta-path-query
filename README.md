@@ -69,37 +69,41 @@ The data structure ( yagoReader.cpp, yagoReader.h, HIN_Graph.h and HIN_Graph.cpp
 * To run the first label-basd connectivity experiment in our paper, refer to topKQueryTest program. The pre-generated results used in our paper are stored in exp/ folder and the case studey is put in Bound-Exp/ folder. 
 
 * To run the embedding-based experiment based pre-generated embedding results, go to "Classifier" folder and run 
-    <pre><code>python clf-evaluation.py [dataset] [embedding-method] [clf-method] </code></pre>
+    <pre><code>
+    python clf-evaluation.py [dataset] [embedding-method] [clf-method] 
+    </code></pre>
 
     Be sure that [dataset]-[embedding-method].txt exists in Embedding folder when you run this. Examples:
-<pre><code>
+    <pre><code>
     python clf-evaluation.py DBLP MNIS KNN
     python clf-evaluation.py ACM FIX-PVP GaussianNB
-</code></pre>
+    </code></pre>
    
-    Here we employ [scikit-learn][3] to implement these classification methods and thus the corresponding package should be installed (python >=3.6). Embedding results are pre-generated using [metapath2vec][4] where the codes come from [here](https://ericdongyx.github.io/metapath2vec/m2v.html). We use parameters as follows whenever we run the embedding program:
+    Here we employ [scikit-learn][3] to implement these classification methods and thus the corresponding package should be installed (python >=3.6). Embedding results are pre-generated using [metapath2vec][4] where the codes come from [here][5]. We use parameters as follows whenever we run the embedding program <code>-pp 1 -size 128 -window 7 -negative 5</code>.
 
-<center>
-| -pp | -size | -window | -nagative |
-|-----|-------|---------|-----------|
-| 1   |  128  |    7    |     5     |
-</center>
     Since embedding results are already generated, you can directly go into Classifier directory and run clf-evaluation.py. If you want to start the metapath2vec-based classification experiment from scratch (which may require much longer time and work), you can do as follows:
 
     1. Go to the corresponding data folder and run "python random_pairs.py". You can also set the split ratio in random_pairs.py
     2. Go back to the previous directoray and run "make && genTopKMPs [dataset] [#threads]". This phase would cost much time and you can reduce it by employing more threads. To skip this step, you can download topKMPs.zip (sh download_topKMPs.sh) and uncompress it into topKMPs/ foloder.
     3. Run "./genTopRandomWalk [dataset] [num_walks] [walk_length] [fix_mp_switcher]". If you want to skip this step, you can download the RandomWalks.zip (sh download_RWs.sh) and uncompress it into "Classifier/RandomWalks/". If you want to generate random walks by yourself, please note that currently there are memory leakage bugs in our program. The whole generation process possibly takes up 128GB or even more for ACM dataset during the random walk generation. If you want to avoid it, you can download the zip files into "Classifier/one_hop_neighbors/" and unzip them as "[dataset].txt". Download scipts are put under "Classifier/one_hop_neighbors/". 
-    4. Download the [metapath2vec code][https://ericdongyx.github.io/metapath2vec/m2v.html] and run it with parameters you want. Make sure you specify the output path is under "Classifier/Embedding/" folder and the input path is under "Classifier/RandomWalks" folder.
+    4. Download the [metapath2vec code][5] and run it with parameters you want. Make sure you specify the output path is under "Classifier/Embedding/" folder and the input path is under "Classifier/RandomWalks" folder.
     5. Finally you can run clf-evaluation.py to examine the classification performance.
 
 Besides, the DBLP and the YAGO dataset are from [Meta Structure][1] and the ACM dataset is from [HeteSim][2].
 
 ## References
 
-> [1]: https://dl.acm.org/doi/10.1145/2939672.2939815
+* Huang, Z., Zheng, Y., Cheng, R., Sun, Y., Mamoulis, N. and Li, X., 2016, August. Meta structure: Computing relevance in large heterogeneous information networks. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (pp. 1595-1604).
+* Shi, C., Kong, X., Huang, Y., Philip, S.Y. and Wu, B., 2014. Hetesim: A general framework for relevance measure in heterogeneous networks. IEEE Transactions on Knowledge and Data Engineering, 26(10), pp.2479-2492.
+* Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V. and Vanderplas, J., 2011. Scikit-learn: Machine learning in Python. the Journal of machine Learning research, 12, pp.2825-2830.
+* Dong, Y., Chawla, N.V. and Swami, A., 2017, August. metapath2vec: Scalable representation learning for heterogeneous networks. In Proceedings of the 23rd ACM SIGKDD international conference on knowledge discovery and data mining (pp. 135-144).
 
-> [2]: https://ieeexplore.ieee.org/document/6702458
+[1]: https://dl.acm.org/doi/10.1145/2939672.2939815
 
-> [3]: https://scikit-learn.org/
+[2]: https://ieeexplore.ieee.org/document/6702458
 
-> [4]: https://dl.acm.org/doi/10.1145/3097983.3098036
+[3]: https://scikit-learn.org/
+
+[4]: https://dl.acm.org/doi/10.1145/3097983.3098036
+
+[5]: https://ericdongyx.github.io/metapath2vec/m2v.html
