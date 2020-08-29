@@ -1,0 +1,6 @@
+[submodule "mp2vec-Clf/one_hop_neighbors/gdown.pl"]
+	path = mp2vec-Clf/one_hop_neighbors/gdown.pl
+	url = https://github.com/circulosmeos/gdown.pl.git
+[submodule "mp2vec-Clf/gdown.pl"]
+	path = mp2vec-Clf/gdown.pl
+	url = https://github.com/circulosmeos/gdown.pl.git

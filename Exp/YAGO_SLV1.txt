@@ -1,0 +1,260 @@
+Take 29.89s to read Yago dataset
+Take 54.76s to build Yago graph
+539209	<Early_life_of_Pedro_II_of_Brazil>	candidate size: 1906276
+519987	<Consolidation_of_Pedro_II_of_Brazil>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 2
+Time cost for this pair is 83.07 seconds
+445100	<Cristina_Fernández_de_Kirchner>	candidate size: 1906276
+1052906	<Presidency_of_Cristina_Fernández_de_Kirchner>	candidate size: 1906276
+Maximum depth in left side: 1
+Maximum depth in right side: 7
+Time cost for this pair is 202.56 seconds
+823476	<Growth_of_Pedro_II_of_Brazil>	candidate size: 1906276
+1080397	<Apogee_of_Pedro_II_of_Brazil>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 2
+Time cost for this pair is 83.92 seconds
+14290	<Ronald_Reagan>	candidate size: 1906276
+623386	<Presidency_of_Ronald_Reagan>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 4
+Time cost for this pair is 146.81 seconds
+94266	<Pedro_II_of_Brazil>	candidate size: 1906276
+1080397	<Apogee_of_Pedro_II_of_Brazil>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 2
+Time cost for this pair is 94.83 seconds
+47711	<Rudy_Giuliani>	candidate size: 1906276
+36054	<Political_positions_of_Rudy_Giuliani>	candidate size: 1906276
+Maximum depth in left side: 3
+Maximum depth in right side: 6
+Time cost for this pair is 213.52 seconds
+913072	<Premiership_of_David_Cameron>	candidate size: 1906276
+490778	<David_Cameron>	candidate size: 1906276
+Maximum depth in left side: 7
+Maximum depth in right side: 2
+Time cost for this pair is 159.36 seconds
+311126	<Shi'a_view_of_Ali>	candidate size: 1906276
+235804	<Ali>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 2
+Time cost for this pair is 71.12 seconds
+94266	<Pedro_II_of_Brazil>	candidate size: 1906276
+519987	<Consolidation_of_Pedro_II_of_Brazil>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 2
+Time cost for this pair is 87.57 seconds
+47711	<Rudy_Giuliani>	candidate size: 1906276
+36054	<Political_positions_of_Rudy_Giuliani>	candidate size: 1906276
+Maximum depth in left side: 3
+Maximum depth in right side: 6
+Time cost for this pair is 215.27 seconds
+255775	<John_F._Kennedy>	candidate size: 1906276
+260512	<Timeline_of_the_presidency_of_John_F._Kennedy>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 2
+Time cost for this pair is 94.42 seconds
+1080397	<Apogee_of_Pedro_II_of_Brazil>	candidate size: 1906276
+519987	<Consolidation_of_Pedro_II_of_Brazil>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 2
+Time cost for this pair is 84.19 seconds
+373780	<Bibliography_of_Thomas_Jefferson>	candidate size: 1906276
+205503	<Thomas_Jefferson>	candidate size: 1906276
+Maximum depth in left side: 3
+Maximum depth in right side: 2
+Time cost for this pair is 116.73 seconds
+733931	<Presidency_of_Jimmy_Carter>	candidate size: 1906276
+503067	<Jimmy_Carter>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 2
+Time cost for this pair is 110.44 seconds
+14290	<Ronald_Reagan>	candidate size: 1906276
+623386	<Presidency_of_Ronald_Reagan>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 4
+Time cost for this pair is 143.93 seconds
+557744	<Outerbridge_Horsey_(senator)>	candidate size: 1906276
+36949	<Outerbridge_Horsey>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 6
+Time cost for this pair is 133.01 seconds
+286207	<Presidency_of_Joseph_Estrada>	candidate size: 1906276
+1056176	<Joseph_Estrada_filmography>	candidate size: 1906276
+Maximum depth in left side: 1
+Maximum depth in right side: 6
+Time cost for this pair is 137.23 seconds
+77568	<Néstor_Kirchner>	candidate size: 1906276
+820357	<Presidency_of_Néstor_Kirchner>	candidate size: 1906276
+Maximum depth in left side: 7
+Maximum depth in right side: 7
+Time cost for this pair is 925.42 seconds
+823476	<Growth_of_Pedro_II_of_Brazil>	candidate size: 1906276
+1028624	<Legacy_of_Pedro_II_of_Brazil>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 2
+Time cost for this pair is 83.87 seconds
+94266	<Pedro_II_of_Brazil>	candidate size: 1906276
+539209	<Early_life_of_Pedro_II_of_Brazil>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 2
+Time cost for this pair is 87.79 seconds
+329611	<Bill_Clinton>	candidate size: 1906276
+1075135	<Presidency_of_Bill_Clinton>	candidate size: 1906276
+Maximum depth in left side: 1
+Maximum depth in right side: 3
+Time cost for this pair is 125.53 seconds
+205503	<Thomas_Jefferson>	candidate size: 1906276
+953274	<Presidency_of_Thomas_Jefferson>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 4
+Time cost for this pair is 128.18 seconds
+823476	<Growth_of_Pedro_II_of_Brazil>	candidate size: 1906276
+539209	<Early_life_of_Pedro_II_of_Brazil>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 2
+Time cost for this pair is 84.59 seconds
+1101033	<Presidency_of_Barack_Obama>	candidate size: 1906276
+151468	<Barack_Obama>	candidate size: 1906276
+Maximum depth in left side: 7
+Maximum depth in right side: 2
+Time cost for this pair is 238.21 seconds
+613900	<Gloria_Macapagal-Arroyo>	candidate size: 1906276
+768687	<Presidency_of_Gloria_Macapagal-Arroyo>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 4
+Time cost for this pair is 114.01 seconds
+823476	<Growth_of_Pedro_II_of_Brazil>	candidate size: 1906276
+519987	<Consolidation_of_Pedro_II_of_Brazil>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 2
+Time cost for this pair is 84.53 seconds
+286207	<Presidency_of_Joseph_Estrada>	candidate size: 1906276
+664572	<Joseph_Estrada>	candidate size: 1906276
+Maximum depth in left side: 1
+Maximum depth in right side: 9
+Time cost for this pair is 147.26 seconds
+969345	<Catherine_of_Saxe-Lauenburg,_Duchess_of_Mecklenburg>	candidate size: 1906276
+612988	<Catherine_of_Saxe-Lauenburg>	candidate size: 1906276
+Maximum depth in left side: 7
+Maximum depth in right side: 4
+Time cost for this pair is 2671.78 seconds
+569994	<Presidency_of_Fidel_V._Ramos>	candidate size: 1906276
+39586	<Fidel_V._Ramos>	candidate size: 1906276
+Maximum depth in left side: 15
+Maximum depth in right side: 4
+Time cost for this pair is 2117.36 seconds
+314779	<Dianne_Feinstein>	candidate size: 1906276
+191557	<Political_positions_of_Dianne_Feinstein>	candidate size: 1906276
+Maximum depth in left side: 3
+Maximum depth in right side: 4
+Time cost for this pair is 104.41 seconds
+664572	<Joseph_Estrada>	candidate size: 1906276
+1056176	<Joseph_Estrada_filmography>	candidate size: 1906276
+Maximum depth in left side: 3
+Maximum depth in right side: 3
+Time cost for this pair is 97.31 seconds
+551648	<Ulysses_S._Grant>	candidate size: 1906276
+235589	<Presidency_of_Ulysses_S._Grant>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 2
+Time cost for this pair is 81.95 seconds
+376150	<Tony_Blair>	candidate size: 1906276
+178453	<Premiership_of_Tony_Blair>	candidate size: 1906276
+Maximum depth in left side: 1
+Maximum depth in right side: 4
+Time cost for this pair is 92.26 seconds
+472143	<Mustafa_Kemal_Atatürk>	candidate size: 1906276
+110394	<Mustafa_Kemal_Atatürk's_personal_life>	candidate size: 1906276
+Maximum depth in left side: 5
+Maximum depth in right side: 4
+Time cost for this pair is 177.73 seconds
+94266	<Pedro_II_of_Brazil>	candidate size: 1906276
+1028624	<Legacy_of_Pedro_II_of_Brazil>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 2
+Time cost for this pair is 90.73 seconds
+314779	<Dianne_Feinstein>	candidate size: 1906276
+377956	<Mayoralty_of_Dianne_Feinstein>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 4
+Time cost for this pair is 100.92 seconds
+1478396	<Helena_Palaiologina>	candidate size: 1906276
+449239	<Helena_Palaiologina_of_the_Morea>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 6
+Time cost for this pair is 892.36 seconds
+151468	<Barack_Obama>	candidate size: 1906276
+576727	<Illinois_Senate_career_of_Barack_Obama>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 7
+Time cost for this pair is 215.82 seconds
+94266	<Pedro_II_of_Brazil>	candidate size: 1906276
+823476	<Growth_of_Pedro_II_of_Brazil>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 2
+Time cost for this pair is 90.64 seconds
+1101033	<Presidency_of_Barack_Obama>	candidate size: 1906276
+576727	<Illinois_Senate_career_of_Barack_Obama>	candidate size: 1906276
+Maximum depth in left side: 3
+Maximum depth in right side: 5
+Time cost for this pair is 189.67 seconds
+268894	<Theodore_Roosevelt>	candidate size: 1906276
+846238	<Presidency_of_Theodore_Roosevelt>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 5
+Time cost for this pair is 174.43 seconds
+268894	<Theodore_Roosevelt>	candidate size: 1906276
+846238	<Presidency_of_Theodore_Roosevelt>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 5
+Time cost for this pair is 159.92 seconds
+1028624	<Legacy_of_Pedro_II_of_Brazil>	candidate size: 1906276
+519987	<Consolidation_of_Pedro_II_of_Brazil>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 2
+Time cost for this pair is 82.76 seconds
+822664	<Premiership_of_Lal_Bahadur_Shastri>	candidate size: 1906276
+102460	<Lal_Bahadur_Shastri>	candidate size: 1906276
+Maximum depth in left side: 3
+Maximum depth in right side: 3
+Time cost for this pair is 151.62 seconds
+18140	<Frank_Sinatra>	candidate size: 1906276
+680810	<Frank_Sinatra_filmography>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 2
+Time cost for this pair is 95.67 seconds
+768878	<Presidency_of_Dwight_D._Eisenhower>	candidate size: 1906276
+597132	<Dwight_D._Eisenhower>	candidate size: 1906276
+Maximum depth in left side: 3
+Maximum depth in right side: 4
+Time cost for this pair is 220.85 seconds
+47711	<Rudy_Giuliani>	candidate size: 1906276
+36054	<Political_positions_of_Rudy_Giuliani>	candidate size: 1906276
+Maximum depth in left side: 3
+Maximum depth in right side: 6
+Time cost for this pair is 212.3 seconds
+539209	<Early_life_of_Pedro_II_of_Brazil>	candidate size: 1906276
+1080397	<Apogee_of_Pedro_II_of_Brazil>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 2
+Time cost for this pair is 82.74 seconds
+1028624	<Legacy_of_Pedro_II_of_Brazil>	candidate size: 1906276
+539209	<Early_life_of_Pedro_II_of_Brazil>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 2
+Time cost for this pair is 82.75 seconds
+373780	<Bibliography_of_Thomas_Jefferson>	candidate size: 1906276
+953274	<Presidency_of_Thomas_Jefferson>	candidate size: 1906276
+Maximum depth in left side: 2
+Maximum depth in right side: 4
+Time cost for this pair is 110.04 seconds
+Average time cost is 249.868 seconds
+
+Metrics	Accuracy	Accuracy@k
+1	0.585773	0.585773
+2	0.814263	0.700018
+3	0.631328	0.677121
+4	0.780085	0.702862
+5	0.779792	0.718248

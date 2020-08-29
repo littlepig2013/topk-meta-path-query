@@ -1,0 +1,171 @@
+Take 0.99s to read ACM dataset
+Take 0.93s to construct ACM graph
+12698	Jiawei_Han	candidate size: 17431
+12359	Philip_Yu	candidate size: 17431
+Iteration: 19	UB Score: 0.0327979	Explored Minimum Score: 3.906e-05
+Iteration: 20	UB Score: 0.0275642	Explored Minimum Score: 7.48038e-05
+Iteration: 21	UB Score: 0.0275642	Explored Minimum Score: 7.48038e-05
+Iteration: 22	UB Score: 0.0275642	Explored Minimum Score: 7.48038e-05
+Iteration: 23	UB Score: 0.0179167	Explored Minimum Score: 8.7524e-05
+Iteration: 24	UB Score: 0.00926549	Explored Minimum Score: 8.7524e-05
+Iteration: 25	UB Score: 0.00926549	Explored Minimum Score: 8.7524e-05
+Iteration: 26	UB Score: 0.00842818	Explored Minimum Score: 8.7524e-05
+Iteration: 27	UB Score: 0.00780949	Explored Minimum Score: 8.7524e-05
+Iteration: 28	UB Score: 0.00772607	Explored Minimum Score: 8.7524e-05
+Iteration: 29	UB Score: 0.00635348	Explored Minimum Score: 8.7524e-05
+Iteration: 30	UB Score: 0.0051622	Explored Minimum Score: 8.7524e-05
+Iteration: 31	UB Score: 0.0051622	Explored Minimum Score: 8.7524e-05
+Iteration: 32	UB Score: 0.00513695	Explored Minimum Score: 8.7524e-05
+Iteration: 33	UB Score: 0.00411262	Explored Minimum Score: 8.7524e-05
+Iteration: 34	UB Score: 0.00348504	Explored Minimum Score: 8.7524e-05
+Iteration: 35	UB Score: 0.00327979	Explored Minimum Score: 8.7524e-05
+Iteration: 36	UB Score: 0.00311827	Explored Minimum Score: 8.7524e-05
+Iteration: 37	UB Score: 0.00301283	Explored Minimum Score: 8.7524e-05
+Iteration: 38	UB Score: 0.00281523	Explored Minimum Score: 8.7524e-05
+Iteration: 39	UB Score: 0.00281523	Explored Minimum Score: 8.7524e-05
+Iteration: 40	UB Score: 0.00275642	Explored Minimum Score: 8.7524e-05
+Iteration: 41	UB Score: 0.00275642	Explored Minimum Score: 8.7524e-05
+Iteration: 42	UB Score: 0.00275642	Explored Minimum Score: 8.7524e-05
+Iteration: 43	UB Score: 0.00275642	Explored Minimum Score: 8.7524e-05
+Iteration: 44	UB Score: 0.00275642	Explored Minimum Score: 8.7524e-05
+Iteration: 45	UB Score: 0.00275642	Explored Minimum Score: 8.7524e-05
+Iteration: 46	UB Score: 0.00275642	Explored Minimum Score: 8.7524e-05
+Iteration: 47	UB Score: 0.00274587	Explored Minimum Score: 8.7524e-05
+Iteration: 48	UB Score: 0.00251895	Explored Minimum Score: 8.7524e-05
+Iteration: 49	UB Score: 0.00251895	Explored Minimum Score: 8.7524e-05
+Iteration: 50	UB Score: 0.00251895	Explored Minimum Score: 8.7524e-05
+Iteration: 51	UB Score: 0.00251895	Explored Minimum Score: 8.7524e-05
+Iteration: 52	UB Score: 0.00183058	Explored Minimum Score: 8.7524e-05
+Iteration: 53	UB Score: 0.00179167	Explored Minimum Score: 8.7524e-05
+Iteration: 54	UB Score: 0.00154284	Explored Minimum Score: 8.7524e-05
+Iteration: 55	UB Score: 0.00154284	Explored Minimum Score: 8.7524e-05
+Iteration: 56	UB Score: 0.00154284	Explored Minimum Score: 8.7524e-05
+Iteration: 57	UB Score: 0.00154284	Explored Minimum Score: 8.7524e-05
+Iteration: 58	UB Score: 0.00146232	Explored Minimum Score: 8.7524e-05
+Iteration: 59	UB Score: 0.00146232	Explored Minimum Score: 8.7524e-05
+Iteration: 60	UB Score: 0.00129664	Explored Minimum Score: 8.7524e-05
+Iteration: 61	UB Score: 0.00101659	Explored Minimum Score: 8.7524e-05
+Iteration: 62	UB Score: 0.000944979	Explored Minimum Score: 8.7524e-05
+Iteration: 63	UB Score: 0.000944979	Explored Minimum Score: 8.7524e-05
+Iteration: 64	UB Score: 0.000944979	Explored Minimum Score: 8.7524e-05
+Iteration: 65	UB Score: 0.000944979	Explored Minimum Score: 8.7524e-05
+Iteration: 66	UB Score: 0.000944979	Explored Minimum Score: 8.7524e-05
+Iteration: 67	UB Score: 0.000944979	Explored Minimum Score: 8.7524e-05
+Iteration: 68	UB Score: 0.000944979	Explored Minimum Score: 8.7524e-05
+Iteration: 69	UB Score: 0.000944979	Explored Minimum Score: 8.7524e-05
+Iteration: 70	UB Score: 0.000926549	Explored Minimum Score: 8.7524e-05
+Iteration: 71	UB Score: 0.000926549	Explored Minimum Score: 8.7524e-05
+Iteration: 72	UB Score: 0.000926549	Explored Minimum Score: 8.7524e-05
+Iteration: 73	UB Score: 0.000926549	Explored Minimum Score: 8.7524e-05
+Iteration: 74	UB Score: 0.000926549	Explored Minimum Score: 8.7524e-05
+Iteration: 75	UB Score: 0.000926549	Explored Minimum Score: 8.7524e-05
+Iteration: 76	UB Score: 0.000794185	Explored Minimum Score: 8.7524e-05
+Iteration: 77	UB Score: 0.000794185	Explored Minimum Score: 8.7524e-05
+Iteration: 78	UB Score: 0.000780949	Explored Minimum Score: 8.7524e-05
+Iteration: 79	UB Score: 0.000772607	Explored Minimum Score: 8.7524e-05
+Iteration: 80	UB Score: 0.000635348	Explored Minimum Score: 8.7524e-05
+Iteration: 81	UB Score: 0.00051622	Explored Minimum Score: 8.7524e-05
+Iteration: 82	UB Score: 0.00051622	Explored Minimum Score: 8.7524e-05
+Iteration: 83	UB Score: 0.000495782	Explored Minimum Score: 8.7524e-05
+Iteration: 84	UB Score: 0.000443101	Explored Minimum Score: 8.7524e-05
+Iteration: 85	UB Score: 0.000419508	Explored Minimum Score: 8.7524e-05
+Iteration: 86	UB Score: 0.000396469	Explored Minimum Score: 8.7524e-05
+Iteration: 87	UB Score: 0.000381371	Explored Minimum Score: 8.7524e-05
+Iteration: 88	UB Score: 0.000367365	Explored Minimum Score: 8.7524e-05
+Iteration: 89	UB Score: 0.000327979	Explored Minimum Score: 8.7524e-05
+Iteration: 90	UB Score: 0.000311827	Explored Minimum Score: 8.7524e-05
+Iteration: 91	UB Score: 0.000311827	Explored Minimum Score: 8.7524e-05
+Iteration: 92	UB Score: 0.000305096	Explored Minimum Score: 8.7524e-05
+Iteration: 93	UB Score: 0.000301283	Explored Minimum Score: 8.7524e-05
+Iteration: 94	UB Score: 0.000298873	Explored Minimum Score: 8.7524e-05
+Iteration: 95	UB Score: 0.000275642	Explored Minimum Score: 8.7524e-05
+Iteration: 96	UB Score: 0.000275642	Explored Minimum Score: 8.7524e-05
+Iteration: 97	UB Score: 0.000275642	Explored Minimum Score: 8.7524e-05
+Iteration: 98	UB Score: 0.000275642	Explored Minimum Score: 8.7524e-05
+Iteration: 99	UB Score: 0.000275642	Explored Minimum Score: 8.7524e-05
+Iteration: 100	UB Score: 0.000275642	Explored Minimum Score: 8.7524e-05
+Iteration: 101	UB Score: 0.000275642	Explored Minimum Score: 8.7524e-05
+Iteration: 102	UB Score: 0.000275642	Explored Minimum Score: 8.7524e-05
+Iteration: 103	UB Score: 0.000275642	Explored Minimum Score: 8.7524e-05
+Iteration: 104	UB Score: 0.000275642	Explored Minimum Score: 8.7524e-05
+Iteration: 105	UB Score: 0.000275642	Explored Minimum Score: 8.7524e-05
+Iteration: 106	UB Score: 0.000275642	Explored Minimum Score: 8.7524e-05
+Iteration: 107	UB Score: 0.000275642	Explored Minimum Score: 8.7524e-05
+Iteration: 108	UB Score: 0.000275642	Explored Minimum Score: 8.7524e-05
+Iteration: 109	UB Score: 0.000275642	Explored Minimum Score: 8.7524e-05
+Iteration: 110	UB Score: 0.000274587	Explored Minimum Score: 8.7524e-05
+Iteration: 111	UB Score: 0.000270069	Explored Minimum Score: 8.7524e-05
+Iteration: 112	UB Score: 0.000251895	Explored Minimum Score: 8.7524e-05
+Iteration: 113	UB Score: 0.000251895	Explored Minimum Score: 8.7524e-05
+Iteration: 114	UB Score: 0.000251895	Explored Minimum Score: 8.7524e-05
+Iteration: 115	UB Score: 0.000242835	Explored Minimum Score: 8.7524e-05
+Iteration: 116	UB Score: 0.000242835	Explored Minimum Score: 8.7524e-05
+Iteration: 117	UB Score: 0.000241647	Explored Minimum Score: 8.7524e-05
+Iteration: 118	UB Score: 0.000230162	Explored Minimum Score: 8.7524e-05
+Iteration: 119	UB Score: 0.000225534	Explored Minimum Score: 8.7524e-05
+Iteration: 120	UB Score: 0.000225009	Explored Minimum Score: 8.7524e-05
+Iteration: 121	UB Score: 0.000225009	Explored Minimum Score: 8.7524e-05
+Iteration: 122	UB Score: 0.000216216	Explored Minimum Score: 8.7524e-05
+Iteration: 123	UB Score: 0.000193461	Explored Minimum Score: 8.7524e-05
+Iteration: 124	UB Score: 0.000183221	Explored Minimum Score: 8.7524e-05
+Iteration: 125	UB Score: 0.000183058	Explored Minimum Score: 8.7524e-05
+Iteration: 126	UB Score: 0.000183058	Explored Minimum Score: 8.7524e-05
+Iteration: 127	UB Score: 0.000183058	Explored Minimum Score: 8.7524e-05
+Iteration: 128	UB Score: 0.000179167	Explored Minimum Score: 8.7524e-05
+Iteration: 129	UB Score: 0.000172073	Explored Minimum Score: 8.7524e-05
+Iteration: 130	UB Score: 0.000172073	Explored Minimum Score: 8.7524e-05
+Iteration: 131	UB Score: 0.000148735	Explored Minimum Score: 8.7524e-05
+Iteration: 132	UB Score: 0.000148735	Explored Minimum Score: 8.7524e-05
+Iteration: 133	UB Score: 0.000148735	Explored Minimum Score: 8.7524e-05
+Iteration: 134	UB Score: 0.000148735	Explored Minimum Score: 8.7524e-05
+Iteration: 135	UB Score: 0.000148007	Explored Minimum Score: 8.7524e-05
+Iteration: 136	UB Score: 0.000148007	Explored Minimum Score: 8.7524e-05
+Iteration: 137	UB Score: 0.000146686	Explored Minimum Score: 8.7524e-05
+Iteration: 138	UB Score: 0.000129664	Explored Minimum Score: 8.7524e-05
+Iteration: 139	UB Score: 0.000129664	Explored Minimum Score: 8.7524e-05
+Iteration: 140	UB Score: 0.000118494	Explored Minimum Score: 8.7524e-05
+Iteration: 141	UB Score: 0.000118494	Explored Minimum Score: 8.7524e-05
+Iteration: 142	UB Score: 0.000118494	Explored Minimum Score: 8.7524e-05
+Iteration: 143	UB Score: 0.000118494	Explored Minimum Score: 8.7524e-05
+Iteration: 144	UB Score: 0.00011231	Explored Minimum Score: 8.7524e-05
+Iteration: 145	UB Score: 0.000101659	Explored Minimum Score: 8.7524e-05
+Iteration: 146	UB Score: 0.000101659	Explored Minimum Score: 8.7524e-05
+Iteration: 147	UB Score: 0.000101659	Explored Minimum Score: 8.7524e-05
+Iteration: 148	UB Score: 9.44979e-05	Explored Minimum Score: 8.7524e-05
+Iteration: 149	UB Score: 9.44979e-05	Explored Minimum Score: 8.7524e-05
+Iteration: 150	UB Score: 9.44979e-05	Explored Minimum Score: 8.7524e-05
+Iteration: 151	UB Score: 9.44979e-05	Explored Minimum Score: 8.7524e-05
+Iteration: 152	UB Score: 9.44979e-05	Explored Minimum Score: 8.7524e-05
+Iteration: 153	UB Score: 9.44979e-05	Explored Minimum Score: 8.7524e-05
+Iteration: 154	UB Score: 9.44979e-05	Explored Minimum Score: 8.7524e-05
+Iteration: 155	UB Score: 9.26549e-05	Explored Minimum Score: 8.7524e-05
+Iteration: 156	UB Score: 9.26549e-05	Explored Minimum Score: 8.7524e-05
+Iteration: 157	UB Score: 9.26549e-05	Explored Minimum Score: 8.7524e-05
+Iteration: 158	UB Score: 9.26549e-05	Explored Minimum Score: 8.7524e-05
+Iteration: 159	UB Score: 9.26549e-05	Explored Minimum Score: 8.7524e-05
+Iteration: 160	UB Score: 9.26549e-05	Explored Minimum Score: 8.7524e-05
+Iteration: 161	UB Score: 9.26549e-05	Explored Minimum Score: 8.7524e-05
+Iteration: 162	UB Score: 9.26549e-05	Explored Minimum Score: 8.7524e-05
+Iteration: 163	UB Score: 9.26549e-05	Explored Minimum Score: 8.7524e-05
+Iteration: 164	UB Score: 9.26549e-05	Explored Minimum Score: 8.7524e-05
+Iteration: 165	UB Score: 9.26549e-05	Explored Minimum Score: 8.7524e-05
+Iteration: 166	UB Score: 9.26549e-05	Explored Minimum Score: 8.7524e-05
+Iteration: 167	UB Score: 9.26549e-05	Explored Minimum Score: 8.7524e-05
+Iteration: 168	UB Score: 9.26549e-05	Explored Minimum Score: 8.7524e-05
+Iteration: 169	UB Score: 8.98443e-05	Explored Minimum Score: 8.7524e-05
+Iteration: 170	UB Score: 8.98443e-05	Explored Minimum Score: 8.7524e-05
+Iteration: 171	UB Score: 6.5199e-05	Explored Minimum Score: 8.7524e-05
+Maximum depth in left side: 6
+Maximum depth in right side: 1
+Importance		Support		Rarity	length	Meta Path
+1.50e-01	2.66e+00	5.6505	2	[P_A]^(-1) -> P_A
+9.70e-03	2.76e-01	3.5076	2	A_F -> [A_F]^(-1)
+3.67e-03	8.93e-01	4.1126	3	[P_A]^(-1) -> [P_P]^(-1) -> P_A
+3.48e-03	8.29e-01	4.2013	3	[P_A]^(-1) -> P_P -> P_A
+1.14e-03	6.64e+00	1.7126	4	[P_A]^(-1) -> P_V -> [P_V]^(-1) -> P_A
+3.89e-04	1.03e+00	3.7814	4	[P_A]^(-1) -> P_A -> [P_A]^(-1) -> P_A
+1.90e-04	7.90e-01	2.4066	4	[P_A]^(-1) -> P_P -> [P_P]^(-1) -> P_A
+1.53e-04	1.11e+00	1.3833	4	[P_A]^(-1) -> P_C -> [P_C]^(-1) -> P_A
+1.51e-04	4.59e-01	3.2971	4	[P_A]^(-1) -> [P_P]^(-1) -> P_P -> P_A
+8.75e-05	2.39e-01	3.6650	4	[P_A]^(-1) -> P_P -> P_P -> P_A
+Take 104.13s to calculate top k meta-paths

@@ -1,0 +1,198 @@
+Take 29.85s to read Yago dataset
+Take 57.15s to build Yago graph
+539209	<Early_life_of_Pedro_II_of_Brazil>	candidate size: 1906276
+519987	<Consolidation_of_Pedro_II_of_Brazil>	candidate size: 1906276
+Maximum depth in left side: 1
+Maximum depth in right side: 3
+0.490868	-29	29
+0.408248	-26	26
+0.0293105	17	-17
+0.425375	-29	-26	29
+0.425375	-29	26	29
+1.89879	-29	29	-29	29
+0.536078	-29	26	-26	29
+0.536078	-29	26	26	29
+0.536078	-29	-26	-26	29
+0.536078	-29	-26	26	29
+0.238819	-29	-29	29	29
+0.00113165	8	-8
+0.000427722	8	-8	29
+0.57735	-26	29	-29	26
+1.13108	-26	26	-29	29
+Time cost for this pair is 944.42 seconds
+445100	<Cristina_Fernández_de_Kirchner>	candidate size: 1906276
+1052906	<Presidency_of_Cristina_Fernández_de_Kirchner>	candidate size: 1906276
+Maximum depth in left side: 1
+Maximum depth in right side: 3
+0.194338	1	-1
+0.301511	11	-11
+0.103142	3	-3
+0.301511	11	-11	26
+0.0503793	28	-10	26
+0.0953463	3	-5	-11
+0.213201	26	11	-11
+0.194338	1	-1	26
+0.00264918	8	-8
+0.0595491	11	5	-3
+0.0059337	28	-5	-11
+0.00202982	28	-5	-3
+0.137417	26	1	-1
+0.194338	1	7	-7	-1
+1.50643	1	-1	1	-1
+Time cost for this pair is 670.84 seconds
+823476	<Growth_of_Pedro_II_of_Brazil>	candidate size: 1906276
+1080397	<Apogee_of_Pedro_II_of_Brazil>	candidate size: 1906276
+Maximum depth in left side: 1
+Maximum depth in right side: 3
+0.490868	-29	29
+0.408248	-26	26
+0.0293105	17	-17
+0.425375	-29	26	29
+0.425375	-29	-26	29
+1.89879	-29	29	-29	29
+0.536078	-29	-26	26	29
+0.536078	-29	-26	-26	29
+0.536078	-29	26	-26	29
+0.536078	-29	26	26	29
+0.238819	-29	-29	29	29
+0.00113165	8	-8
+0.000427722	8	-8	29
+1	-26	26	-26	26
+1.09327	-29	29	-26	26
+Time cost for this pair is 970.26 seconds
+14290	<Ronald_Reagan>	candidate size: 1906276
+623386	<Presidency_of_Ronald_Reagan>	candidate size: 1906276
+Maximum depth in left side: 1
+Maximum depth in right side: 3
+1	-26	26
+0.707107	11	-11
+0.75	29	-29	26
+0.111046	25	-25	26
+0.0118056	1	-1
+0.5	4	-4	26
+0.853553	-26	29	-29	26
+1.8227	-26	25	-25	26
+0.00417392	30	1	-1
+0.00113165	8	-8
+0.707107	11	7	-7	-11
+0.5	-26	9	-9	26
+0.5	-26	-29	29	26
+0.353553	-26	4	-4	26
+0.5	-26	7	-7	26
+Time cost for this pair is 10231.4 seconds
+94266	<Pedro_II_of_Brazil>	candidate size: 1906276
+1080397	<Apogee_of_Pedro_II_of_Brazil>	candidate size: 1906276
+Maximum depth in left side: 1
+Maximum depth in right side: 3
+0.408248	-26	26
+0.316228	-29	29
+0.0293105	17	-17
+0.57735	29	-29	26
+0.377964	-29	26	29
+0.377964	-29	-26	29
+0.00113165	8	-8
+0.000427722	8	-8	29
+1	-26	26	-26	26
+0.117851	-26	17	-17	26
+0.57735	-26	29	-29	26
+1.13108	-26	26	-29	29
+1.38658	-29	29	-29	29
+0.223607	-29	26	-26	29
+0.223607	-29	-26	-26	29
+Time cost for this pair is 972.05 seconds
+47711	<Rudy_Giuliani>	candidate size: 1906276
+36054	<Political_positions_of_Rudy_Giuliani>	candidate size: 1906276
+Maximum depth in left side: 1
+Maximum depth in right side: 3
+0.408248	-26	26
+0.301511	11	-11
+0.0118056	1	-1
+0.00113165	8	-8
+0.301511	11	7	-7	-11
+0.301511	11	4	-4	-11
+1	11	-11	11	-11
+0.0990148	-26	3	-3	26
+0.0222718	-26	13	-13	26
+0.00364169	1	5	-10	26
+0.00297343	11	5	-10	26
+0.00297343	-26	10	-10	26
+0.00324457	-26	8	-8	26
+0.000600486	-26	10	-5	-11
+0.000735442	1	5	-5	-11
+Time cost for this pair is 216359 seconds
+913072	<Premiership_of_David_Cameron>	candidate size: 1906276
+490778	<David_Cameron>	candidate size: 1906276
+Maximum depth in left side: 3
+Maximum depth in right side: 1
+0.707107	-26	26
+0.707107	7	-7
+0.0376355	1	-1
+0.00113165	8	-8
+0.707107	-26	-29	29	26
+0.0153646	1	-1	13	-28
+0.0376355	1	7	-7	-1
+0.0266123	1	-28	1	-1
+0.0532246	1	-28	28	-1
+0.00141643	1	-1	28	-1
+0.986216	1	-1	1	-1
+0.0130233	1	-28	3	-3
+0.000490139	1	-1	28	-3
+0.00623845	1	-1	17	-3
+0.0027668	1	-1	13	-3
+Time cost for this pair is 8612.19 seconds
+311126	<Shi'a_view_of_Ali>	candidate size: 1906276
+235804	<Ali>	candidate size: 1906276
+Maximum depth in left side: 3
+Maximum depth in right side: 1
+1	-26	26
+0.516398	29	-29
+0.707107	26	26
+0.5	-26	-26
+0.707107	26	-26
+1.07735	-26	29	-29
+0.707107	26	29	-29
+0.365148	29	-29	26
+1.0488	29	29	-29	-29
+0.761802	-26	29	-29	26
+0.00113165	8	-8
+0.353553	-26	-29	29	26
+0.25	-26	30	-30	26
+0.5	26	29	-29	26
+0.447214	29	-26	-26	-29
+Time cost for this pair is 980.91 seconds
+94266	<Pedro_II_of_Brazil>	candidate size: 1906276
+519987	<Consolidation_of_Pedro_II_of_Brazil>	candidate size: 1906276
+Maximum depth in left side: 1
+Maximum depth in right side: 3
+0.408248	-26	26
+0.316228	-29	29
+0.0293105	17	-17
+0.57735	29	-29	26
+0.377964	-29	-26	29
+0.377964	-29	26	29
+0.00113165	8	-8
+0.000427722	8	-8	29
+0.117851	-26	17	-17	26
+0.57735	-26	29	-29	26
+1	-26	26	-26	26
+0.774597	-29	29	-26	26
+1.38658	-29	29	-29	29
+1.13108	-26	26	-29	29
+0.223607	-29	-26	-26	29
+Time cost for this pair is 1024.02 seconds
+47711	<Rudy_Giuliani>	candidate size: 1906276
+36054	<Political_positions_of_Rudy_Giuliani>	candidate size: 1906276
+Maximum depth in left side: 1
+Maximum depth in right side: 3
+0.408248	-26	26
+0.301511	11	-11
+0.0118056	1	-1
+0.00113165	8	-8
+0.301511	11	4	-4	-11
+0.301511	11	7	-7	-11
+1	11	-11	11	-11
+0.0990148	-26	3	-3	26
+0.0222718	-26	13	-13	26
+0.00364169	1	5	-10	26
+0.00297343	-26	10	-10	26
+0.00297343	11	5	-10	26

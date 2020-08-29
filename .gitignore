@@ -1,3 +1,8 @@
+genRandomWalk
+genTopKMPs
+topKQuery
+topKQueryTest
+
 # Prerequisites
 *.d
 

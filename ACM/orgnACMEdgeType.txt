@@ -1,0 +1,8 @@
+A_F	0
+P_A	1
+P_C	2
+P_P	3
+P_S	4
+P_T	5
+P_V	6
+V_C	7

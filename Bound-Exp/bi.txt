@@ -1,0 +1,67 @@
+Take 0.98s to read ACM dataset
+Take 0.92s to construct ACM graph
+12698	Jiawei_Han	candidate size: 17431
+12359	Philip_Yu	candidate size: 17431
+Iteration: 6	UB Score: 0.0169068	Explored Minimum Score: 7.48038e-05
+Iteration: 7	UB Score: 0.00966101	Explored Minimum Score: 8.7524e-05
+Iteration: 8	UB Score: 0.00418124	Explored Minimum Score: 8.7524e-05
+Iteration: 9	UB Score: 0.00410574	Explored Minimum Score: 8.7524e-05
+Iteration: 10	UB Score: 0.00384228	Explored Minimum Score: 8.7524e-05
+Iteration: 11	UB Score: 0.00374121	Explored Minimum Score: 8.7524e-05
+Iteration: 12	UB Score: 0.00368821	Explored Minimum Score: 8.7524e-05
+Iteration: 13	UB Score: 0.00229146	Explored Minimum Score: 8.7524e-05
+Iteration: 14	UB Score: 0.00229146	Explored Minimum Score: 8.7524e-05
+Iteration: 15	UB Score: 0.00217188	Explored Minimum Score: 8.7524e-05
+Iteration: 16	UB Score: 0.00169068	Explored Minimum Score: 8.7524e-05
+Iteration: 17	UB Score: 0.00169068	Explored Minimum Score: 8.7524e-05
+Iteration: 18	UB Score: 0.00169068	Explored Minimum Score: 8.7524e-05
+Iteration: 19	UB Score: 0.00140351	Explored Minimum Score: 8.7524e-05
+Iteration: 20	UB Score: 0.00140351	Explored Minimum Score: 8.7524e-05
+Iteration: 21	UB Score: 0.00140351	Explored Minimum Score: 8.7524e-05
+Iteration: 22	UB Score: 0.00140351	Explored Minimum Score: 8.7524e-05
+Iteration: 23	UB Score: 0.000966101	Explored Minimum Score: 8.7524e-05
+Iteration: 24	UB Score: 0.000695888	Explored Minimum Score: 8.7524e-05
+Iteration: 25	UB Score: 0.000626299	Explored Minimum Score: 8.7524e-05
+Iteration: 26	UB Score: 0.000454463	Explored Minimum Score: 8.7524e-05
+Iteration: 27	UB Score: 0.000410574	Explored Minimum Score: 8.7524e-05
+Iteration: 28	UB Score: 0.000374121	Explored Minimum Score: 8.7524e-05
+Iteration: 29	UB Score: 0.000368821	Explored Minimum Score: 8.7524e-05
+Iteration: 30	UB Score: 0.000278355	Explored Minimum Score: 8.7524e-05
+Iteration: 31	UB Score: 0.000278355	Explored Minimum Score: 8.7524e-05
+Iteration: 32	UB Score: 0.000219824	Explored Minimum Score: 8.7524e-05
+Iteration: 33	UB Score: 0.000202003	Explored Minimum Score: 8.7524e-05
+Iteration: 34	UB Score: 0.000180744	Explored Minimum Score: 8.7524e-05
+Iteration: 35	UB Score: 0.00017599	Explored Minimum Score: 8.7524e-05
+Iteration: 36	UB Score: 0.000169068	Explored Minimum Score: 8.7524e-05
+Iteration: 37	UB Score: 0.000169068	Explored Minimum Score: 8.7524e-05
+Iteration: 38	UB Score: 0.000169068	Explored Minimum Score: 8.7524e-05
+Iteration: 39	UB Score: 0.000169068	Explored Minimum Score: 8.7524e-05
+Iteration: 40	UB Score: 0.000169068	Explored Minimum Score: 8.7524e-05
+Iteration: 41	UB Score: 0.000169068	Explored Minimum Score: 8.7524e-05
+Iteration: 42	UB Score: 0.000169068	Explored Minimum Score: 8.7524e-05
+Iteration: 43	UB Score: 0.000140351	Explored Minimum Score: 8.7524e-05
+Iteration: 44	UB Score: 0.000140351	Explored Minimum Score: 8.7524e-05
+Iteration: 45	UB Score: 0.000140351	Explored Minimum Score: 8.7524e-05
+Iteration: 46	UB Score: 0.000126315	Explored Minimum Score: 8.7524e-05
+Iteration: 47	UB Score: 0.000120471	Explored Minimum Score: 8.7524e-05
+Iteration: 48	UB Score: 0.000120471	Explored Minimum Score: 8.7524e-05
+Iteration: 49	UB Score: 0.000107793	Explored Minimum Score: 8.7524e-05
+Iteration: 50	UB Score: 0.000107793	Explored Minimum Score: 8.7524e-05
+Iteration: 51	UB Score: 0.000107793	Explored Minimum Score: 8.7524e-05
+Iteration: 52	UB Score: 0.000107793	Explored Minimum Score: 8.7524e-05
+Iteration: 53	UB Score: 9.66101e-05	Explored Minimum Score: 8.7524e-05
+Iteration: 54	UB Score: 6.25766e-05	Explored Minimum Score: 8.7524e-05
+Maximum depth in left side: 1
+Maximum depth in right side: 5
+Importance		Support		Rarity	length	Meta Path
+1.50e-01	2.66e+00	5.6505	2	[P_A]^(-1) -> P_A
+9.70e-03	2.76e-01	3.5076	2	A_F -> [A_F]^(-1)
+3.67e-03	8.93e-01	4.1126	3	[P_A]^(-1) -> [P_P]^(-1) -> P_A
+3.48e-03	8.29e-01	4.2013	3	[P_A]^(-1) -> P_P -> P_A
+1.14e-03	6.64e+00	1.7126	4	[P_A]^(-1) -> P_V -> [P_V]^(-1) -> P_A
+3.89e-04	1.03e+00	3.7814	4	[P_A]^(-1) -> P_A -> [P_A]^(-1) -> P_A
+1.90e-04	7.90e-01	2.4066	4	[P_A]^(-1) -> P_P -> [P_P]^(-1) -> P_A
+1.53e-04	1.11e+00	1.3833	4	[P_A]^(-1) -> P_C -> [P_C]^(-1) -> P_A
+1.51e-04	4.59e-01	3.2971	4	[P_A]^(-1) -> [P_P]^(-1) -> P_P -> P_A
+8.75e-05	2.39e-01	3.6650	4	[P_A]^(-1) -> P_P -> P_P -> P_A
+Take 36.53s to calculate top k meta-paths
